@@ -1,0 +1,1 @@
+(function(){function n(){var n=sj_gx(),r="web",i=_ge("sw_meFlt"),t;i&&(r=i.getAttribute("_V")),t="url="+escape(document.URL)+"&V="+r,n.open("POST","/rewardsapp/reportActivity",!0),n.setRequestHeader("Content-type","application/x-www-form-urlencoded"),n.onreadystatechange=function(){n.readyState==4&&n.status==200&&new Function(n.responseText)()},n.send(t)}n()})()

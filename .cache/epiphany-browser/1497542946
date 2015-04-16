@@ -1,0 +1,1 @@
+sj_evt.bind("onP1",function(){if(_w.sf_fbCfg){var n=sj_ce("iframe");n.height=n.width=0,n.frameBorder=n.scrolling="no",sj_b.appendChild(n),n.src="/fd/fb/r?v="+_G.Ver+"&sId="+sf_fbCfg.sId+(/&testhooks=1/.test(location.search)?"&testhooks=1":""),_w.logfb&&logfb("rr",+new Date)}},1,_w.sf_fbCfg&&sf_fbCfg.wt?sf_fbCfg.wt:100)
